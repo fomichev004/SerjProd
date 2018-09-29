@@ -50,7 +50,7 @@ $(function(){
 
 	$('#load_more').click(function(event){
 		event.preventDefault();
-		$('.list_product').append('<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">	<div class="img_product"><img src="img/8.png" alt="2"></div><h2>Назва взуття</h2><p>опис взуття</p><p class="price">$290</p></a><a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">	<div class="img_product"><img src="img/8.png" alt="2"></div><h2>Назва взуття</h2><p>опис взуття</p><p class="price">$290</p></a><a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">	<div class="img_product"><img src="img/8.png" alt="2"></div><h2>Назва взуття</h2><p>опис взуття</p><p class="price">$290</p></a>');
+		$('.list_product').append('<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">	<div class="img_product"><img src="img/9.png" alt="2"></div><h2>название футболки</h2><p>описание футболки</p><p class="price">$290</p></a><a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">	<div class="img_product"><img src="img/9.png" alt="2"></div><h2>название футболки</h2><p>описание футболки</p><p class="price">$290</p></a><a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">	<div class="img_product"><img src="img/9.png" alt="2"></div><h2>название футболки</h2><p>описание футболки</p><p class="price">$290</p></a>');
 
 	});
 	

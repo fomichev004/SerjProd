@@ -110,18 +110,30 @@ width: 1.33vmax;
 	margin-left: 1.66vmax;
 	font-size: 0.83vmax;
 }
-
+#logo_2 {
+    display: flex;
+    
+    
+}
+#logo_2 img {
+    width: 36%;
+    height: 36%;
+    border-radius: 50%;
+    justify-content: flex-start;
+}
+/*
 #logo, #logo a {
 	display: block;
 	height: 5.33vmax;
 	width: 3.33vmax;
 	text-decoration: none;
 }
+
 #logo svg {
 	width: inherit;
 	height: inherit;
 	fill: #fff;
-}
+} */
 
 #cart {
 	border: 1px solid #86ce8e;
