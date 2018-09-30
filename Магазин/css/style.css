@@ -116,9 +116,10 @@ width: 1.33vmax;
     
 }
 #logo_2 img {
-    width: 36%;
-    height: 36%;
-    border-radius: 50%;
+    border: none;
+    width: 37%;
+    height: 37%;
+    border-radius: 100%;
     justify-content: flex-start;
 }
 /*
