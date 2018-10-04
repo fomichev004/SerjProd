@@ -45,6 +45,15 @@ body {
 	position: relative;
 }
 
+.bold {
+    font-weight: bold;
+    font-size: 1.08vmax;
+	border: none;
+	color: #3c3d41;
+	cursor: pointer;
+
+    
+}
 .dark {
 	background-color: #eaeaea;
 	color: #fff;
@@ -72,12 +81,7 @@ div.btn {
 }
 
 
-#sign {
-	border: 1px solid #ededed;
-	color: #fff;
-	font-size: 0.83vmax;
-	cursor: pointer;
-}
+
 
 #sign svg {  
 width: 1.33vmax;
@@ -86,15 +90,21 @@ width: 1.33vmax;
  margin-right: 1.83vmax;
 }
 
+.header_contacts {
+    color:#3c3d41;
+    font-size: 0.8vmax
+    
+}
 
-#sign:hover {
+ /*#phone:hover {
 	background-color: #ededed;
-	color: #2e2e30;
+	color: #2e2e30;*/
 }
 #location,
 #currency {	 
 	margin-left: 5.25vmax;
 	color: #aaaaaa;
+    
 
 }
 
