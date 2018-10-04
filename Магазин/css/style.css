@@ -111,21 +111,19 @@ width: 1.33vmax;
 	font-size: 0.83vmax;
 }
 #logo_2 {
-    display: flex;
+    display: flex;   
     
-    
-}
-#logo_2 img {
-    border: 3px solid black;
-    width: 9.16vmax;
-    height: 9.16vmax;
-    border-radius: 100%;
-    justify-content: flex-start;
-    
-    background: black; /* Цвет фона */
-    box-shadow: 0 0 50px rgba(0,0,0,3.5); /* Параметры тени */
-    padding: 0px;
-}
+        }
+        #logo_2 img {
+             width: 9.16vmax;
+            height: 9.16vmax;
+            border-radius: 100%;
+            justify-content: flex-start;
+
+            background: black; /* Цвет фона */
+            box-shadow: 0 0 50px rgba(0,0,0,3.5); /* Параметры тени */
+            padding: 0px;
+        }
 /*
 #logo, #logo a {
 	display: block;
