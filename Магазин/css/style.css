@@ -92,11 +92,13 @@ width: 1.33vmax;
 
 .header_contacts {
     color:#3c3d41;
-    font-size: 0.8vmax    
+    font-size: 0.8vmax;
+    line-height: 1.5vmax
 }
 .header_contacts i {
     color: #838d8;
     font-size: 1vmax;
+    
 }
 
  /*#phone:hover {
