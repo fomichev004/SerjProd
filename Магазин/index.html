@@ -1,475 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>SerJ Prodaction</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/fontello.css">
-	<link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.css">
-	<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400i" rel="stylesheet">
-	</head>
+    <meta charset="UTF-8">
+    <title>SerJ Prodaction</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/jquery-ui-1.9.2.custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400i" rel="stylesheet">
+</head>
+
 <body>
-	<div id="modal">
-		<div id="close_mod">					
-		<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-			viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
+    <div id="modal">
+        <div id="close_mod">
+            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 510 510" style="enable-background:new 0 0 510 510;" xml:space="preserve">
 			<path d="M255,0C114.75,0,0,114.75,0,255s114.75,255,255,255s255-114.75,255-255S395.25,0,255,0z M382.5,346.8l-35.7,35.7
 			L255,290.7l-91.8,91.8l-35.7-35.7l91.8-91.8l-91.8-91.8l35.7-35.7l91.8,91.8l91.8-91.8l35.7,35.7L290.7,255L382.5,346.8z"/>
 		</svg>
 
-		</div>
+        </div>
 
-		<div id="conten_modal">
-			<form action="">
-				<div class="input">
-					<input type="text" name="login" placeholder="login">
-				</div>
-				<div class="input">
-					<input type="password" name="password" placeholder="password">
-				</div>
-				<button class="submit">Sign in</button>
-			</form>
-		</div>
-	</div>
-		<div id="black_fill"></div>
+        <div id="conten_modal">
+            <form action="">
+                <div class="input">
+                    <input type="text" name="login" placeholder="login">
+                </div>
+                <div class="input">
+                    <input type="password" name="password" placeholder="password">
+                </div>
+                <button class="submit">Sign in</button>
+            </form>
+        </div>
+    </div>
+    <div id="black_fill"></div>
 
-	<div id="cart_box" class="anime main_flex__nowrap flex__jcontent_between flex__align-items_center">
-		<div class="tittle_cart main_flex__nowrap flex__jcontent_between flex__align-items_center">
-				<p>Кошик</p>
-			
-				<svg version="1.1" id="next" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-					 viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
+    <div id="cart_box" class="anime main_flex__nowrap flex__jcontent_between flex__align-items_center">
+        <div class="tittle_cart main_flex__nowrap flex__jcontent_between flex__align-items_center">
+            <p>Кошик</p>
+
+            <svg version="1.1" id="next" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.175 477.175" style="enable-background:new 0 0 477.175 477.175;" xml:space="preserve">
 					<path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
 						c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"/>					
-					</svg>								
-			</div>
+					</svg>
+        </div>
 
-			<div class="content_cart  ">                
-				<div class="header_list_cart">
-							
-							<div id="head1">Товар</div>
-							<div id="head2">Название</div>
-							<div id="head3">Количистве</div>
-							<div id="head4">Цена</div>
-				</div> 
-			
+        <div class="content_cart  ">
+            <div class="header_list_cart">
 
-			 	<div class="block_list_cart">
-						<div class="img_cart"> 						
-							<img src="" alt="" width="" height="">
-						</div>
+                <div id="head1">Товар</div>
+                <div id="head2">Название</div>
+                <div id="head3">Количистве</div>
+                <div id="head4">Цена</div>
+            </div>
 
-						<div class="tittle_cart_2">					<!--  краткая информация о товаре -->
-							<p><a href="">Черевики жіночі</a></p>		   			<!-- название товара -->
-							<p class="cart_mini_features"> Натуральна шкіра, Размер 32 </p>		<!--описание товара	-->				
-						</div>
 
-						<div class="count_cart">			<!--количество товара -->
-							<ul class="input_count_style">
-								<li> <p align="center" class="count_minus">-</p></li>
-								<li> <p align="center"> <input class="count_input" maxlength="3" type="text"/></p></li>
-								<li> <p align="center"  class="count_plus">+</p></li>
-							</ul>
-						</div> 
+            <div class="block_list_cart">
+                <div class="img_cart">
+                    <img src="" alt="" width="" height="">
+                </div>
 
-						<div class="price_product"><h5><span class="span_count"></span>1<span> x </span>15 000 грн</h5><p>15 000 грн</p> 					
-							</div>			
+                <div class="tittle_cart_2">
+                    <!--  краткая информация о товаре -->
+                    <p><a href="">Черевики жіночі</a></p>
+                    <!-- название товара -->
+                    <p class="cart_mini_features"> Натуральна шкіра, Размер 32 </p>
+                    <!--описание товара	-->
+                </div>
 
-						<div class="delete_cart"> <a href="#"> 
+                <div class="count_cart">
+                    <!--количество товара -->
+                    <ul class="input_count_style">
+                        <li>
+                            <p align="center" class="count_minus">-</p>
+                        </li>
+                        <li>
+                            <p align="center"> <input class="count_input" maxlength="3" type="text" /></p>
+                        </li>
+                        <li>
+                            <p align="center" class="count_plus">+</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="price_product">
+                    <h5><span class="span_count"></span>1<span> x </span>15 000 грн</h5>
+                    <p>15 000 грн</p>
+                </div>
+
+                <div class="delete_cart"> <a href="#"> 
 								<img src="img/bsk_del.png"></a>
-						</div>	
-						
-						<div id="bottom_cart_line"> 				
-								
-						</div> 
-				</div> 
+                </div>
 
-	
-		</div> 	
-			<button id="order" type="bottun"> замовити</button>				
-		
-	</div>
+                <div id="bottom_cart_line">
 
-	<header class="dark">
-		<div id="top">
-			<div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_around">
-				
-                <div id="logo_2">  
-				    <a href="#"><img src="img/logo_serj.jpg" alt="logo"></a>
+                </div>
+            </div>
+
+
+        </div>
+        <button id="order" type="bottun"> замовити</button>
+
+    </div>
+
+    <header class="dark">
+        <div id="top">
+            <div class="wrap main_flex__nowrap flex__align-items_center flex__jcontent_around">
+
+                <div id="logo_2">
+                    <a href="#"><img src="img/logo_serj.jpg" alt="logo"></a>
+                </div>
+                <div class="header_contacts">
+
+                    <div id="phone"><i class="icon-phone-alt"></i> +38 073-419-62-72
                     </div>
-                        <div class="header_contacts">
+                    <div id="mail"><i class="icon-mail-alt"></i> art_serj_pwnz@gmail.com</div>
+                </div>
+            </div>
+        </div>
+        <div id="menu">
+            <div class="wrap main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                <nav id="main_nav">
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Купить</a></li>
+                    <li><a href="#">Hand Made</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Оплата</a></li>
+                </nav>
 
-                            <div id="phone"><i class="icon-phone-alt"></i> +38 063-770-76-77
-                            </div>
-                            <div id="mail"><i class="icon-mail-alt"></i> SerJ_art@gmail.com</div>
-                        </div>
-			</div>
-			</div>
-		<div id="menu">
-			<div class="wrap main_flex__nowrap flex__jcontent_center flex__align-items_center">
-				<nav id="main_nav">
-					<li><a href="#">Футболки</a></li>
-					<li><a href="#">Свитшоты</a></li>
-					<li><a href="#">Товары</a></li>
-					<li><a href="#">Эскизы</a></li>					
-					<li><a href="#">Блог</a></li>				
-				</nav>
-						<div id="search_panel" class="anime">
-							<input type="text" placeholder="search">
-						</div>
-				<div id="search_button">
-					<svg>
-						<path d="M19.129,18.164l-4.518-4.52c1.152-1.373,1.852-3.143,1.852-5.077c0-4.361-3.535-7.896-7.896-7.896
-						c-4.361,0-7.896,3.535-7.896,7.896s3.535,7.896,7.896,7.896c1.934,0,3.705-0.698,5.078-1.853l4.52,4.519
-						c0.266,0.268,0.699,0.268,0.965,0C19.396,18.863,19.396,18.431,19.129,18.164z M8.567,15.028c-3.568,0-6.461-2.893-6.461-6.461
-						s2.893-6.461,6.461-6.461c3.568,0,6.46,2.893,6.46,6.461S12.135,15.028,8.567,15.028z"></path>
-						</svg>
-				</div>
-				
-			</div>
-			</div>
-		</header>
-    
-	<main class="wrap main_flex__nowrap flex__jcontent_between flex__align-items_start">
 
-			<div id="left_bar">
-					<div id="category" class="box">
 
-							<div class="list_box">	
-								<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
-									<p>Футболки</p>
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													xmlns:xlink="http://www.w3.org/1999/xlink">
+            </div>
+        </div>
+    </header>
+
+    <main class="wrap main_flex__nowrap flex__jcontent_between flex__align-items_start">
+
+        <div id="left_bar">
+            <div id="category" class="box">
+
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <p>Авторская одежда</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 														<path  fill-rule="evenodd"
 														d="M2.647,3.999 L-0.000,6.775 L1.167,8.000 L5.000,3.999 L1.167,-0.000 L-0.000,1.224 L2.647,3.999 L2.647,3.999 Z"/>
 													</svg>
-									</div>
+                    </div>
 
-										<div class="list_link">			
-											<nav>
-													<li><a href="#">1</a></li>
-												<li><a href="#">2</a></li>
-												<li><a href="#">3</a></li>
-												<li><a href="#">4</a></li>
-												<li><a href="#">5</a></li>
-												<li><a href="#">6</a></li>
-											</nav>
-										</div>
-								</div>
-							<div class="list_box">	
-								<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
-									<p>Свитшоты</p>
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <div class="list_link">
+                        <nav>
+                            <li><a href="#">Женские футболки</a></li>
+                            <li><a href="#">Женские свитшоты</a></li>
+                            <li><a href="#">Мужские футболки</a></li>
+                            <li><a href="#">Мужские свитшоты</a></li>
+                        </nav>
+                    </div>
+                </div>
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <p>Hand made</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 														<path  fill-rule="evenodd"
 														d="M2.647,3.999 L-0.000,6.775 L1.167,8.000 L5.000,3.999 L1.167,-0.000 L-0.000,1.224 L2.647,3.999 L2.647,3.999 Z"/>
 												</svg>
-								</div>
+                    </div>
 
-										<div class="list_link">			
-											<nav>
-												<li><a href="#">1</a></li>
-												<li><a href="#">2</a></li>
-												<li><a href="#">3</a></li>
-												<li><a href="#">4</a></li>
-												<li><a href="#">5</a></li>
-												<li><a href="#">6</a></li>
-											</nav>
-										</div>
-							</div>
-							<div class="list_box">	
-								<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
-									<p>Товары</p>
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <div class="list_link">
+                        <nav>
+                            <li><a href="#">Резьба по дереву</a></li>
+                            <li><a href="#">Картины</a></li>
+                        </nav>
+                    </div>
+                </div>
+
+
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <p>Арт</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 														<path  fill-rule="evenodd"
 														d="M2.647,3.999 L-0.000,6.775 L1.167,8.000 L5.000,3.999 L1.167,-0.000 L-0.000,1.224 L2.647,3.999 L2.647,3.999 Z"/>
 												</svg>
-									</div>
+                    </div>
 
-										<div class="list_link">			
-											<nav>
-												<li><a href="#">1</a></li>
-												<li><a href="#">2</a></li>
-												<li><a href="#">3</a></li>
-												<li><a href="#">4</a></li>
-												<li><a href="#">5</a></li>
-												<li><a href="#">6</a></li>
-											</nav>
-										</div>
-								</div>
-							<div class="list_box">	
-								<div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
-									<p>Эскизы</p>
-												<svg
-													xmlns="http://www.w3.org/2000/svg"
-													xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <div class="list_link">
+                        <nav>
+                            <li><a href="#">Принты</a></li>
+                            <li><a href="#">Эскизы</a></li>
+                            <li><a href="#">Идеи</a></li>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <p>Заказать</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 														<path  fill-rule="evenodd"
 														d="M2.647,3.999 L-0.000,6.775 L1.167,8.000 L5.000,3.999 L1.167,-0.000 L-0.000,1.224 L2.647,3.999 L2.647,3.999 Z"/>
 												</svg>
-									</div>
+                    </div>
 
-										<div class="list_link">			
-											<nav>
-												<li><a href="#">1</a></li>
-												<li><a href="#">2</a></li>
-												<li><a href="#">3</a></li>
-												<li><a href="#">4</a></li>
-												<li><a href="#">5</a></li>
-												<li><a href="#">6</a></li>
-											</nav>
-									</div>
-								</div>
-						</div>
+                    <div class="list_link">
+                        <nav>
+                            <li><a href="#">Купить</a></li>
+                            <li><a href="#"> </a></li>
 
-					<!--	<div class="filter_box box">
-							<div class="tittle_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
-								Цвет
-							</div>							
-								<div class="content_filter">
-										<ul class="list_filter main_flex flex__jcontent_start flex__align-items_center color_list">
-											<li class="check-box">
-												<input id="blue" type="checkbox">
-												<label style="background-color: #1476f1" for="blue"></label>
-											</li>
+                        </nav>
+                    </div>
+                </div>
 
-											<li>
-												<input id="green" type="checkbox">
-												<label style="background-color: #82d889" for="green"></label>
-											</li>
 
-											<li>
-												<input id="color3" type="checkbox">
-												<label style="background-color: #3c3d41" for="color3"></label>
-											</li>
+            </div>
 
-											<li>
-												<input id="color4" type="checkbox">
-												<label style="background-color: #838d8f" for="color4"></label>
-											</li>
 
-											<li>
-												<input id="color5" type="checkbox">
-												<label style="background-color: #b8c6c7" for="color5"></label>
-											</li>
 
-											<li>
-												<input id="color6" type="checkbox">
-												<label style="background-color: #ce954a" for="color6"></label>
-											</li>
+            <div class=" box info_box">
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <p>Новости</p>
 
-											<li>
-												<input id="color7" type="checkbox">
-												<label style="background-color: #bcc0c6" for="color7"></label>
-											</li>
+                    </div>
+                </div>
 
-											<li>
-												<input id="color8" type="checkbox">
-												<label style="background-color: #c6cad1" for="color8"></label>
-											</li>
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <p>Качество</p>
 
-											<li>
-												<input id="color9" type="checkbox">
-												<label style="background-color: #dce0e8" for="color9"></label>
-											</li>
+                    </div>
+                </div>
 
-											<li>
-												<input id="color10" type="checkbox">
-												<label style="background-color: #e6eaf2" for="color10"></label>
-											</li>
-										</ul>
-								</div>
-							</div> -->   
+                <div class="list_box">
+                    <div class="title_box main_flex__nowrap flex__align-items_center flex__jcontent_between">
+                        <p>Доставка</p>
+                    </div>
+                </div>
 
-						<div class="filter_box box">
-							<div class="tittle_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
-									Размер
-							</div>							
-								<div class="content_filter">
-											<ul class="list_filter main_flex flex__jcontent_start">
-												<li>
-													<input id="size1" 
-													type="checkbox">
-													<label for="size1">XS</label>
-												</li>
+            </div>
 
-												<li>
-													<input checked id="size2" 
-													type="checkbox">
-													<label for="size2">S</label>
-												</li>
+        </div>
 
-												<li>
-													<input id="size3" 
-													type="checkbox">
-													<label for="size3">M</label>
-												</li>
+        <div id="right_bar">
+            <div class="list_product main_flex flex__jcontent_start flex__align-items_start">
 
-												<li>
-													<input id="size4" 
-													type="checkbox">
-													<label for="size4">L</label>
-												</li>
+                <a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-												<li>
-													<input id="size5" 
-													type="checkbox">
-													<label for="size5">XL</label>
-												</li>
+                    <div class="tag box">
+                        <!-- Ситкер new-->
+                        new
+                    </div>
 
-											</ul>
-								</div>
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
 
-								</div>
-						
-						<div class="filter_box box">
-									<div class="tittle_filter main_flex__nowrap flex__jcontent_start flex__align-items_center">
-										Цена
-										</div>		
 
-									<div class="content_filter">
-											<div id="slider_price">												
-											</div>
-												<div class="price_box flex__jcontent_between main_flex__nowrap flex__align-items_center">
-														<input type="text" name="minPrice" value="">
-														<input type="text" name="maxPrice" value="">
-												</div>
-									</div>
-							</div>
+                </a>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						</div>
-				</div>
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
 
-			<div id="right_bar">
-				<div class="list_product main_flex flex__jcontent_start flex__align-items_start">
 
-					<a href="#" class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center"> 
+                </a>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						<div class="tag box"> <!-- Ситкер new-->
-							new
-							</div>
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
 
-						<div class="img_product">
-							<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						<div class="img_product">
-						<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                </a>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						<div class="img_product">
-						<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
 
-						<div class="img_product">
-							<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						<div class="img_product">
-							<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                </a>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						<div class="img_product">
-							<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
 
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						<div class="img_product">
-							<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                </a>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-						<div class="img_product">
-							<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>	
-					<a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
 
-						<div class="img_product">
-							<img src="img/9.png" alt="2">
-						</div>
-						<h2>Название футболки</h2>
-						<p>Описание футболки</p>
-						<p class="price">$290</p>
-						
-						</a>
 
-					</div>
-							<button id="load_more" type="button">Закгрузить еще</button>
-				</div>			
-			</main>
+                </a>
 
-	<footer>	
-		<div class="wrap">
-			<div>
-				<nav id="footer_nav" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
-					<li><a href="#">Про нас</a></li>
-				
-					
-					<li><a href="#">Размеры</a></li>
-					<li><a href="#">Доставка</a></li>
-					<li><a href="#">Контакты</a></li>
-				</nav>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-			</div>
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
 
-		<div id="newsletter" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
-			<p>Новинки</p>
-			<input type="text" placeholder="E-mail">
-		</div>
-		<div>
-			<ul id="soc_list" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
 
-				<li><a target="blank" href="https://www.facebook.com/serj.petrenko.1">										
+                </a>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
+
+
+                </a>
+                <a class="product box main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+                    <div class="img_product">
+                        <img src="img/9.png" alt="2">
+                    </div>
+                    <h2>Название футболки</h2>
+                    <p>Описание футболки</p>
+
+
+                </a>
+
+            </div>
+            <button id="load_more" type="button">Загрузить еще</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap">
+            <div>
+                <nav id="footer_nav" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                    <li><a href="#">Про нас</a></li>
+
+
+                    <li><a href="#">Размеры</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </nav>
+
+            </div>
+
+            <div id="newsletter" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+                <p>Новинки</p>
+                <input type="text" placeholder="E-mail">
+            </div>
+            <div>
+                <ul id="soc_list" class="main_flex__nowrap flex__jcontent_center flex__align-items_center">
+
+                    <li><a target="blank" href="https://www.facebook.com/serj.petrenko.1">										
 				
 					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/	xlink" x="0px" y="0px"
 								 viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
@@ -477,9 +375,9 @@
 								C0,82.881,7.116,90,15.001,90H45V56H34V41h11v-5.844C45,25.077,52.568,16,61.875,16H74v15H61.875C60.548,31,59,32.611,59,35.024V41
 							h15v15H59v34h16c7.884,0,15-7.119,15-15.001V15.001z"/>
 						</svg></a>
-				</li>
+                    </li>
 
-				<li><a target="blank" href="https://twitter.com">					
+                    <li><a target="blank" href="https://twitter.com">					
 
 					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							 viewBox="0 0 612 612" style="enable-background:new 0 0 612 612;" xml:space="preserve">
@@ -491,9 +389,9 @@
 								c-42.947,33.654-97.099,53.655-155.916,53.655c-10.134,0-20.116-0.612-29.944-1.721c55.567,35.681,121.536,56.485,192.438,56.485
 								c230.948,0,357.188-191.291,357.188-357.188l-0.421-16.253C573.872,163.526,595.211,141.422,612,116.258z"/>	
 					</svg></a>
-				</li>
+                    </li>
 
-				<li><a target="blank" href="https://www.instagram.com/serj_art_production/?hl=ru">			
+                    <li><a target="blank" href="https://www.instagram.com/serj_art_production/?hl=ru">			
 						<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/			xlink" x="0px" y="0px"
 							 	viewBox="0 0 97.395 97.395" style="enable-background:new 0 0 97.395 97.395;"
 							 	xml:space="preserve">
@@ -506,18 +404,18 @@
                                     c10.803,0,19.562-8.485,19.562-18.953C68.351,38.018,59.593,29.533,48.789,29.533z"/>
 						</svg>
 						</a>
-				</li>
+                    </li>
 
-			</ul>
-		</div>
-		</div>
+                </ul>
+            </div>
+        </div>
 
-</footer>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>	
-	<script src="js/jquery-1.8.3.js"></script>
-	<script src="js/jquery-ui-1.9.2.custom.min.js"></script>
-	<script src="js/control.js"></script>
-	
-	</body>
-	
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/jquery-1.8.3.js"></script>
+    <script src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script src="js/control.js"></script>
+
+</body>
+
 </html>

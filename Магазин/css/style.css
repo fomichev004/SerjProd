@@ -214,16 +214,7 @@ nav a  {
 	color: #fff;
 }
 
-#search_button svg {
-	width: 1.5vmax;
-	height: 1.5vmax;
-}
-#search_button {
-	position: absolute;
-	cursor: pointer;
-	right: 0;
-	top: calc(50% - 0.75vmax);
-}
+
 /*
 #banner {
 	width: 100%;
@@ -415,7 +406,7 @@ main {
 }
 
 
-.tittle_filter {
+.info_box {
 	margin-top: 1.83vmax;
 }
 
