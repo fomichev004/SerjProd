@@ -35,7 +35,7 @@ body {
 
 	font-size: 1.16vmax;
 	line-height: 1.33vmax;
-	font-family: 'Poppins', sans-serif ;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -92,12 +92,13 @@ width: 1.33vmax;
 
 .header_contacts {
     color:#3c3d41;
-    font-size: 0.8vmax;
-    line-height: 1.5vmax
+    font-size: 1.0vmax;
+    line-height: 1.8vmax;
+    font-weight: bold;
 }
 .header_contacts i {
     color: #838d8;
-    font-size: 1vmax;
+    font-size: 1.5vmax;
     
 }
 
@@ -139,19 +140,16 @@ width: 1.33vmax;
             box-shadow: 0 0 50px rgba(0,0,0,3.5); /* Параметры тени */
             padding: 0px;
         }
-/*
-#logo, #logo a {
-	display: block;
-	height: 5.33vmax;
-	width: 3.33vmax;
-	text-decoration: none;
-}
+#hand_made  {
 
-#logo svg {
-	width: inherit;
-	height: inherit;
-	fill: #fff;
-} */
+        
+}
+#hand_made img {
+   width: 60%;
+    height: 60%;
+    border: solid 2px black; 
+    transform: rotate(-10deg);
+}
 
 #cart {
 	border: 1px solid #86ce8e;
