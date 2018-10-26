@@ -227,7 +227,7 @@ nav a {
     width: 60.83vw;
 }
 
-.information h1{
+#tittle_information{
     text-transform: uppercase;
     margin-bottom: 20px;
     text-align: center;
@@ -243,9 +243,6 @@ nav a {
     border-radius: 0.33vw;
     background-color: #fff;
     color: #3c3d41;
-}
-#information h1 {
-
 }
 
 main {
@@ -266,7 +263,7 @@ main {
 }
 
 #load_more:hover {
-    transform: scale(0.95);  /*при наведении увеличивает элемент*/
+    transform: scale(0.95);  /*при наведении увеличивает элемент
    
 }
 */
