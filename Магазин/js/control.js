@@ -1,7 +1,7 @@
 $(function(){
 
 	"use strict";
-
+   
 	$('.title_box').click(function(){
 
 		$(this).toggleClass('open');
@@ -11,18 +11,7 @@ $(function(){
     
     
     
-    /* plugin animate start */
-    $(".element").animated("zoomInUp");
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    /* plugin animate end */
+     $("div#mail").animated("bounce");
         
     
     
@@ -72,6 +61,7 @@ $(function(){
 	});
 	
 
+    
 
 });
 
