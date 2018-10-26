@@ -50,8 +50,6 @@ body {
     border: none;
     color: #3c3d41;
     cursor: pointer;
-
-
 }
 
 .dark {
@@ -229,16 +227,32 @@ nav a {
     width: 60.83vw;
 }
 
-.box {
+.information h1{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.information {
+    padding: 40px;
+    min-height: 60vh; /*минимальная высота блока*/
+}
+
+.information,
+.box
+{
     border-radius: 0.33vw;
     background-color: #fff;
+    color: #3c3d41;
+}
+#information h1 {
+
 }
 
 main {
     padding-top: 4.16vmax;
     padding-bottom: 6.66vmax;
 }
-
+/*
 #load_more {
     border: none;
     width: 100%;
@@ -252,10 +266,10 @@ main {
 }
 
 #load_more:hover {
-    transform: scale(0.95);
-    /*при наведении увеличивает элемент*/
+    transform: scale(0.95);  /*при наведении увеличивает элемент*/
+   
 }
-
+*/
 .product {
     flex-flow: column nowrap;
     text-decoration: none;
@@ -273,8 +287,7 @@ main {
 
 
 .product:hover {
-    transform: scale(1.05);
-    /*при наведении увеличивает элемент*/
+    transform: scale(1.05); /*при наведении увеличивает элемент*/    
     cursor: pointer;
 
 }
@@ -587,12 +600,7 @@ footer {
 
 .submit {
     border-radius: 0.33vmax;
-
 }
-
-
-
-
 
 .input {
     width: 100%;
