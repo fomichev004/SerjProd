@@ -8,7 +8,24 @@ $(function(){
 		$(this).next('div.list_link').toggleClass('open');
 
 	});
-
+    
+    
+    
+    /* plugin animate start */
+    $(".element").animated("zoomInUp");
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* plugin animate end */
+        
+    
+    
 	$('#slider_price').slider({
 		max: 1000,
 		min: 0,

@@ -352,6 +352,7 @@ main {
     padding: 0 1.66vmax;
     border-bottom: #eee 1px solid;
     cursor: pointer;
+    
 }
 
 .title_box svg {
@@ -360,9 +361,10 @@ main {
     fill: #CCC;
 }
 
+
 .title_box p,
 .title_box a,
-.title_box a li,
+.title_box,
 .tittle_filter {
     color: #3c3d41;
     font-size: 0.91vmax;
