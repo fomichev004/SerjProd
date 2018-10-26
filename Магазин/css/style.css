@@ -362,6 +362,7 @@ main {
 
 .title_box p,
 .title_box a,
+.title_box a li,
 .tittle_filter {
     color: #3c3d41;
     font-size: 0.91vmax;
