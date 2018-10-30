@@ -234,7 +234,7 @@ nav a {
 }
 .information {
     padding: 40px;
-    min-height: 60vh; /*минимальная высота блока*/
+    min-height: 63vh; /*минимальная высота блока*/
 }
 
 .information,
@@ -243,6 +243,12 @@ nav a {
     border-radius: 0.33vw;
     background-color: #fff;
     color: #3c3d41;
+}
+.information p {
+    font-size: 0.85vmax;
+}
+.information h3 {
+    font-size: 0.85vmax;
 }
 
 main {
