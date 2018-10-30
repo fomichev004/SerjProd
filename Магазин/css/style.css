@@ -222,7 +222,7 @@ nav a {
 #left_bar {
     width: 19.16vw;
 }
-
+/* правая часть страницы НАЧАЛО*/
 #content {
     width: 60.83vw;
 }
@@ -233,8 +233,9 @@ nav a {
     text-align: center;
 }
 .information {
-    padding: 40px;
+    padding: 2vmax;
     min-height: 63vh; /*минимальная высота блока*/
+ position: relative;
 }
 
 .information,
@@ -250,11 +251,38 @@ nav a {
 .information h3 {
     font-size: 0.85vmax;
 }
+#product_left {
+    float: left;
+  width: 45%;
+    height: inherit;
+    padding: 1vmax;
+    
+}
+#product_left img {
+    width: 100%;
+    height: 100%;
+}
+#product_left_mini {
+    
+    width: 33%;
+    }
+#product_left_mini li{
+   
+}
 
+#product_right {
+   float: right;
+    width: 45%;
+    height: inherit;
+    padding: 1vmax;
+    
+   }
+/* правая часть страницы конец*/
 main {
     padding-top: 4.16vmax;
     padding-bottom: 6.66vmax;
 }
+
 /*
 #load_more {
     border: none;
