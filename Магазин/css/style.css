@@ -30,8 +30,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 body {
-
-	background-color: #eaeaea;
+background-image: url(../img/bg.jpg);
+    background-color: #eaeaea;
 	font-size: 1.16vmax;
 	line-height: 1.33vmax;
 	font-family: 'Open Sans', sans-serif;
